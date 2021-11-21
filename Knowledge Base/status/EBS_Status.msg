@@ -1,5 +1,8 @@
-Header header
+# Enumeration for the state of the EBS
 
-uint8 ebss_unavailable=0
-uint8 ebss_armed=1
-uint8 ebss_activated=2
+uint8 UNKNOWN = 0
+uint8 UNAVAILABLE = 1
+uint8 ARMED = 2
+uint8 ACTIVATED = 3
+
+uint8 state
