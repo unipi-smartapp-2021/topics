@@ -1,10 +1,10 @@
 # Simulator Topics
-This file contains some interesting topics and their relative message type by the simulator. There are some more topics published not reported here. To investigate all of them run the command 
+This file contains some interesting topics and their relative message type published by the simulator. There are some more topics published not reported here. To investigate all of them run the command 
 ```bash
 rostopic list -v
 ```
 
-while the simulator is running or use the [rqt_graph](http://wiki.ros.org/rqt_graph).
+or use the [rqt_graph](http://wiki.ros.org/rqt_graph) while the simulator is running.
 
 ### Published Topics
 - /carla/ego_vehicle/vehicle_status [carla_msgs/CarlaEgoVehicleStatus](https://github.com/carla-simulator/ros-bridge/blob/0.9.6/carla_msgs/msg/CarlaEgoVehicleStatus.msg)
@@ -26,7 +26,7 @@ while the simulator is running or use the [rqt_graph](http://wiki.ros.org/rqt_gr
 - /carla/ego_vehicle/speedometer [std_msgs/Float32](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Float32.html)
 
 ### Control the vehicle
-When spawning the vehicle through the `spawn_vehicle.launch` file the [carla_manual_control](https://carla.readthedocs.io/projects/ros-bridge/en/latest/carla_manual_control/) package from *carla-ros-bridge* is also run.
+When spawning the vehicle through the `spawn_vehicle.launch` file, the [carla_manual_control](https://carla.readthedocs.io/projects/ros-bridge/en/latest/carla_manual_control/) package from *carla-ros-bridge* is also run.
 Therefore the vehicle can be controlled by publishing on the topic
 ```bash
 /carla/ego_vehicle/vehicle_control_cmd
