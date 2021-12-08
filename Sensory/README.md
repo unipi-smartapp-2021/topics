@@ -1,5 +1,5 @@
 # Sensory Topics List
 ### Published topics
-- /human_interaction
-- /model/lidar/output
-- /model/camera/output
+- /human_interaction [string] 
+- /model/lidar/output [Float32MultiArray]
+- /model/camera/output 
